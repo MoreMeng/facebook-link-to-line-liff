@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^(.*)$ go.php?liffid=$1 [QSA,NC]
+
+# Example URL : https://example.com/1234567890-abcdefgh
